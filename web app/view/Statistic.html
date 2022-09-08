@@ -3,8 +3,59 @@
 <head>
 <meta charset="utf-8">
 <title>无标题文档</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script src="../js/chart.js"></script>
+	
 </head>
 
 <body>
+	<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <canvas id="myChart" width="400" height="400"></canvas>
+<script>
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: ["food", "house", "Yellow", "Green", "Purple", "Orange"],
+        datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: [
+                '#AA1111',
+                '#FFFFFF',
+                '#000000',
+                '#EBEBEB',
+                '#AA1111',
+                '#FFFFFF'
+            ],
+            borderColor: [
+                '#000000',
+                '#000000',
+                '#000000',
+                '#000000',
+                '#000000',
+                '#000000'
+            ],
+            borderWidth: 0.5
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>
+
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.4.1.js"></script>
+<script src="../js/my.js"></script>
+
 </body>
 </html>

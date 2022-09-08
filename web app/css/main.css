@@ -23,3 +23,17 @@ main .row .search {
     text-align: right;
     width: 100%;
 }
+form .row .ExIn {
+    width: 60%;
+    text-align: center;
+}
+div .input-group #input_amount {
+    text-align: right;
+}
+div .row .psbt {
+    width: 100%;
+    text-align: center;
+}
+div .input-group #input_Remark {
+    width: 300px;
+}

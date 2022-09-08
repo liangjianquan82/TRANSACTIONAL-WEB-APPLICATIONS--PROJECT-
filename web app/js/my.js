@@ -2,7 +2,7 @@
 var now = new Date();
 
 //格式化日，如果小于9，前面补0
-var day = ("0" + now.getDate()).slice(-2);
+//var day = ("0" + now.getDate()).slice(-2);
 
 //格式化月，如果小于9，前面补0
 
@@ -13,3 +13,5 @@ var today = now.getFullYear()+"-"+(month) ;
 
 //完成赋值
 $('#dateMonth').val(today);
+
+
