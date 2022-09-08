@@ -1,0 +1,25 @@
+.mainbody {
+    background-size: 100% 840px;
+    background-repeat: no-repeat;
+    background-image: url(../img/back.jpg);
+}
+
+.mainbody .container .mainheader {
+    width: auto;
+    height: 0px;
+}
+form div h2 {
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+main form .titile {
+    text-align: center;
+}
+main div .titile {
+    text-align: center;
+}
+main .row .search {
+    text-align: right;
+    width: 100%;
+}
