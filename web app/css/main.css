@@ -13,12 +13,8 @@ form div h2 {
     color: #FFFFFF;
    
 }
-main form .titile {
-    text-align: center;
-}
-main div .titile {
-    text-align: center;
-}
+
+
 main .row .search {
     text-align: right;
     width: 100%;
@@ -36,4 +32,32 @@ div .row .psbt {
 }
 div .input-group #input_Remark {
     width: 300px;
+}
+.chart {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.divchart {
+
+}
+
+.container main .chart {
+	
+}
+
+main .row .title {
+    text-align: center;
+    width: 100%;
+}
+form .row .title {
+	text-align: center;
+    width: 100%;
+}
+.container .row .title {
+    text-align: center;
+    width: 100%;
+}
+main div .titile {
+    text-align: center;
 }
